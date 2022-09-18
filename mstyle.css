@@ -34,4 +34,19 @@ TABLE {
    .la {
     text-align: left; 
    }
+.button {
+		max-width:300px; 
+		background-color:#9932CC; 
+		margin: 0 auto; 
+		margin-top:30px; 
+		padding:10px;
+		border-radius:5px;
+		text-decoration:none;
+		color: black;
+	}
+	.button:hover {
+		transition-duration:1s;
+		background-color:#9400D3;
+		
+	}
   
