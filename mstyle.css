@@ -2,7 +2,7 @@
   position: absolute;
   width: 100px;
   height: 100px;
-  margin: 10px;
+  margin-right: 10px;
   float: left;;
 }
 footer, #sslki {
@@ -11,4 +11,7 @@ footer, #sslki {
 table{
 	max-width:370px; 
 		background-color:#9370DB;
+}
+nav{
+	clear:both;
 }
