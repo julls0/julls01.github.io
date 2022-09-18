@@ -15,27 +15,27 @@ footer, #sslki {
 #nav, #sslki{
 	clear:both;
 }
-
-   table {
-    width: 300px; /* Ширина таблицы */
-    background: #B0C4DE; /* Цвет фона нечетных строк */
-    border: 1px solid #87CEFA; /* Рамка вокруг таблицы */
-    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+TABLE {
+    width: 300px; 
+    background: #B0C4DE; 
+    border: 1px solid #B0C4DE; 
+    border-collapse: collapse; 
    }
    TD, TH {
-    padding: 3px; /* Поля вокруг содержимого ячейки */
+    padding: 3px; 
    }
    TD {
-    text-align: center; /* Выравнивание по центру */
-    border-bottom: 1px solid #87CEFA ; /* Линия внизу ячейки */
+    text-align: center; 
+    border-bottom: 1px solid #87CEFA ; 
    }
    TH {
-    background:#87CEEB ; /* Цвет фона */
-    color: black; /* Цвет текста */
+    background: #B0C4DE; 
+    color: black; 
    }
    TR.even {
-    background: #B0E0E6; /* Цвет фона четных строк */
+    background: #B0E0E6; 
    }
    .la {
-    text-align: left; /* Выравнивание по левому краю */
+    text-align: left; 
    }
+  
