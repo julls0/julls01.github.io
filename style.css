@@ -1,0 +1,52 @@
+#logotip{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  float: left;;
+}
+#nav, #sslki{
+	clear:both;
+}
+.button {
+		max-width:300px; 
+		background-color:#9932CC; 
+		margin: 0 auto; 
+		margin-top:30px; 
+		padding:10px;
+		border-radius:5px;
+		text-decoration:none;
+		color: black;
+	}
+.button:hover {
+		transition-duration:1s;
+		background-color:#9400D3;
+		
+	}
+TABLE {
+    width: 300px; 
+    background: #B0C4DE; 
+    border: 1px solid #B0C4DE; 
+    border-collapse: collapse; 
+   }
+   TD, TH {
+    padding: 3px; 
+   }
+   TD {
+    text-align: center; 
+    border-bottom: 1px solid #87CEFA ; 
+   }
+   TH {
+    background: #B0C4DE; 
+    color: black; 
+   }
+   TR.even {
+    background: #B0E0E6; 
+   }
+   .la {
+    text-align: left; 
+   }
+
+  footer, #sslki {
+		text-align:center;
+}
