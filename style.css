@@ -10,10 +10,10 @@ padding: 0;
 	clear:both;
 }
 .button {
-		max-width:300px; 
+		max-width:150px; 
 		background-color:#9932CC; 
 		margin: 0 auto; 
-		margin-top:30px; 
+		margin-top:15px; 
 		padding:10px;
 		border-radius:5px;
 		text-decoration:none;
