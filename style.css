@@ -1,10 +1,7 @@
-/*#logotip{
-  position: absolute;
-  width: 300px;
-  height: 300px;
-  margin-right: 50px;
-  float: left;;
-}*/
+* {
+margin: 0;
+padding: 0;
+}
 #logotip{ 
 	width: 300px;
 		float: left;
