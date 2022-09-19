@@ -3,16 +3,18 @@
   <head>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="logotip.png" type="text/css/">
-	</head>
-	<body>
+  </head>
+
+  <body>
     <header>
-		<div id="header">
-			<img id="logotip" src="logotip.png" alt="">
-			<h1 id="z2"> Задание 2 </h1>
-			
-	    </div>
-	  </header>
-	  <nav>
+      <div class="container">
+        <div class="head">
+          <img src="logotip.png" alt=""/>
+          <p class="title">Задание 2</p>
+        </div>
+      </div>
+    </header>
+    <nav>
       <div id="sslki">
         <a class="button" href="#table">Таблица</a>
         <a class="button" href="#form">Форма</a>
@@ -26,7 +28,7 @@
         background: #7B68EE
       }
     </style>
-         
+   <div class="content">      
   <a href="#about">Каталог</a>
   <h2> Гиперссылки </h2>
 <ol>
@@ -65,9 +67,9 @@
   <li><a href="/about">Сокращенная на главную</a></li>
   <li><a href="/about/8">Сокращенная на внутреннюю</a></li>
 </ol>
-	<h3 id="table">Таблица рождаемости</h3>
-	<table class="table"><table>
-		<tbody>
+  <h3 id="table">Таблица рождаемости</h3>
+  <table class="table"><table>
+    <tbody>
    <tr>
     <th>&nbsp;</th><th>1990</th><th>1995</th><th>2000</th>
    </tr>
@@ -102,7 +104,7 @@
     
     <label>
       Дата рождения: <br />
-      <input name"Дата рождения" type="date" value="2003-05-09">
+      <input name="Дата рождения" type="date" value="2003-05-09">
     </label>
     <br />
   
@@ -116,7 +118,6 @@
     Женский
   </label>
   <br />
-    
     Количество конечностей: <br>
     <label>
       <input type="radio" name="number2" checked="checked" value="Number" />
@@ -147,18 +148,17 @@
     <label>
       Биография: <br />
       <textarea name="the-name">Расскажите о себе..</textarea>
-     </label>
-     <br />
-      
-    <label>
-      <input type="checkbox" name="tick" /> С контрактом ознакомлен(а)
-    </label>
-    <br />
-      
-    <input type="submit" value="Отправить" />
+      <br>
+      <label>
+        С контрактом ознакомлен(-а)
+        <input type="checkbox" checked="checked" name="check">
+      </label>
+      <br>
+      <input type="submit" value="Отправить">
       </form>
-	   <footer>
-	   <span id="footer">(c) Дамирчян Юлианна, <time datetime="2022"> 2022</time> </span>
-	   </footer>
+    </div>
+     <footer>
+     <span id="footer">(c) Дамирчян Юлианна, <time datetime="2022"> 2022</time> </span>
+     </footer>
   </body>
   </html>
