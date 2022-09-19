@@ -1,9 +1,13 @@
-#logotip{
+/*#logotip{
   position: absolute;
   width: 300px;
   height: 300px;
   margin-right: 50px;
   float: left;;
+}*/
+#logotip{ 
+	width: 200px;
+		float: left;
 }
 #nav, #sslki{
 	clear:both;
